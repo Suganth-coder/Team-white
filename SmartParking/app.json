@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SmartParking",
+    "slug": "SmartParking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.shalini_s.SmartParking"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "  A modern urban city has over a million of cars on its roads but it does not have enough parking space. The daily search for parking spaces consumes one million barrels of the world’s oil supply daily. Thankfully, Smart parking system finds the solution to this.\nHere, we have used Arduino based IOT devices for checking the parking space availability, firebase real time database, react native for the mobile app and google Map API's for the navigation purposes."
+  }
+}
